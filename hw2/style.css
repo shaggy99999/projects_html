@@ -1,0 +1,144 @@
+body {
+    margin: 0px auto; /*Расстояние от края элемента до края окна браузера*/
+    font-family: Roboto, sans-serif; /*Устанавливает семейство шрифта*/
+  }
+.main {
+    width: 100%; /*Устанавливает ширину содержимого элемента*/
+    max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
+    margin-left: auto; /*Устанавливает величину отступа от левого края элемента*/
+    margin-right: auto; /*Устанавливает величину отступа от правого края элемента*/
+    padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
+    padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
+  }
+  /*Основной контейнер*/
+  .header{
+    background-color: #007765; 
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 21;
+ }
+ .navigation {
+    height: 100%; /*Устанавливает ширину содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    justify-content: space-between; /*Как браузер распределяет пространство вокруг флекс-элементов вдоль главной оси контейнера*/
+ }
+ .link{
+    color: white;
+    text-decoration: none; 
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    line-height: 28px; /*Задаёт высоту строки текста*/
+ }
+ h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+ }
+ .section_1 {
+    background: url(фон.png) center/cover;
+    background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+    margin-top: 84px; /*Устанавливает величину отступа от верхнего края элемента*/
+    padding-top: 160px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 160px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+  }
+.main_title {
+    color:white;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+}
+.titles {
+    line-height: 75px;
+    color:#007765;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 48px
+}
+.section_2{
+    background-color: #EEEEEE; /*Определяет цвет фона элемента*/
+    padding-top: 48px;
+    padding-bottom: 95px;
+}
+.text_section_2{
+    color: #000000;
+    font-size: 32px;
+    padding: right 450 left 451 top 139 bottom 92;
+}
+.section_3 {
+    background: url(hero.png) center no-repeat;
+    background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+    padding-top: 128px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 128px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+  }
+.message{
+    width: 100%; /*Устанавливает ширину содержимого элемента*/
+    font-style: italic; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    font-size: 48px; /*Определяет размер шрифта элемента*/
+    line-height: 56px; /*Задаёт высоту строки текста*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    color: #fff; /*Определяет цвет текста элемента*/
+}
+.PPC {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 48px;
+}
+.section_4{
+    background-color: #FFFFFF; /*Определяет цвет фона элемента*/
+    padding-top: 48px;
+    padding-bottom: 95px;
+}
+.section_5{
+    background-color: #EEEEEE; /*Определяет цвет фона элемента*/
+    padding-top: 48px;
+    padding-bottom: 95px;
+    height: 845px;
+}
+.img {
+    width: 350px; /*Устанавливает ширину содержимого элемента*/
+    height: 283px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    flex-flow: column wrap;
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+  
+.name {
+    font-weight: 700; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    line-height: 28px; /*Задаёт высоту строки текста*/
+    color: #007765; /*Определяет цвет текста элемента*/
+}
+  
+.team {
+    padding-top: 58px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+}
+  
+.figure {
+    margin: 0; /*Расстояние от края элемента до края другог элемента*/
+    padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+  
+.foto {
+    width: 168px; 
+    height: 168px; /*Устанавливает высоту содержимого элемента*/
+}
+.footer{
+    background-color: #333333;
+    width:100%;
+    height: 176px;
+}
+.text_footer{
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
